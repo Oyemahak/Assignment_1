@@ -1,8 +1,8 @@
-# 🧠 Humber Vibe Coding Challenge – Assignment 1
+# Humber Vibe Coding Challenge – Assignment 1
 
 This project showcases registered students for the Vibe Coding Challenge at Humber using PHP, MySQL, and CSS.
 
-## 📁 Project Structure
+## Project Structure
 
 - `index.php` – Displays participant cards with data from MySQL
 - `connect.php` – Database connection file
@@ -10,7 +10,7 @@ This project showcases registered students for the Vibe Coding Challenge at Humb
 - `images/` – Folder for profile pictures
 - `README.md` – Project details and instructions
 
-## 🛠 Database Setup
+## Database Setup
 
 1. Create a MySQL database: `assignment1`
 2. Create a table: `vibe_coding`

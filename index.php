@@ -2,7 +2,7 @@
 // connect to MySQL database
 require('connect.php');
 
-// run SELECT query to fetch participants
+// run SELECT query to fetch participants data
 $query = "SELECT * FROM vibe_coding ORDER BY registered_at DESC";
 $result = mysqli_query($connect, $query);
 ?>
@@ -11,7 +11,7 @@ $result = mysqli_query($connect, $query);
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Vibe Coding Challenge – Humber</title>
+  <title>Vibe Coding Challenge - Humber Polytechnic</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -19,7 +19,7 @@ $result = mysqli_query($connect, $query);
 
   <!-- Page heading -->
   <header>
-    <h1>Humber Vibe Coding Challenge</h1>
+    <h1>Vibe Coding Challenge</h1>
     <p>Registered Participants</p>
   </header>
 
@@ -54,7 +54,7 @@ $result = mysqli_query($connect, $query);
 
   <!-- Footer -->
   <footer>
-    <p>© <?php echo date("Y"); ?> Mahak Patel</p>
+    <p>© <?php echo date("Y"); ?> All rights reserved by Mahak Patel</p>
   </footer>
 
 </body>
